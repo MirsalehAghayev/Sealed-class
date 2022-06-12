@@ -1,0 +1,28 @@
+using System;
+//Tapşırıq: bir metoduz olsun, parametr olaraq istənilən data tipdən dəyər ala bilməlidi.
+//Parametrinə gələn dəyəri çap etsin
+
+namespace SealedClassHomeWork
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        
+            int C = 14;
+            string O = "Mirsaleh";
+            long D = -9;
+            double E = 9.99;
+
+            Print (C);
+            Print (O);
+            Print (D);
+            Print (E);
+        }
+        public static void Print(Object item)
+        {
+            Console.WriteLine(item);
+
+        }
+    }
+}
